@@ -4,7 +4,7 @@ $f_shadow = dirname(__FILE__) . '/../etc/example.com/shadow';
 // a file where suspended mail account password hashes must be stored
 $f_suspended = dirname(__FILE__) . '/../etc/example.com/suspended';
 // Suspension password hash, generated from a random complex password
-$suspass = '$6$623GSJOE7o2QsVyp$HhTGzOsQrblYG4BeiZwvdXFypSO.sro8B/Yjgwfzm2p8EUqISbv13b3hugSVn6XO9oQvRw0Lm6NQz8WS2wPjS1';
+$suspass = '$6$623GSJOE7o2QsVyp$HhTGzOsQrblYG4BeiZwvdXFypZO.sro8B/Yjgwfzm2p8EUqISbv13b3hugSVn6XO9oQvRw0Lm6NQz8WS2wPjS1';
 if (isset($_GET['action']) and isset($_GET['user']))
 {
 	$user = urldecode($_GET['user']);
